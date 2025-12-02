@@ -2145,3 +2145,18 @@
   "hasFileTree": true,
   "textLength": 306
 }
+[2025-12-02 22:37:06.824] [INFO] GoogleGenerativeAI initialized
+  Details: {
+  "hasApiKey": true,
+  "timestamp": "2025-12-02T17:07:06.810Z"
+}
+[2025-12-02 22:37:07.826] [INFO] User connected to project
+  Details: {
+  "projectId": "6911fbb289431099e08c1db1",
+  "userId": "piyushthawale08@gmail.com"
+}
+[2025-12-02 22:37:08.113] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}

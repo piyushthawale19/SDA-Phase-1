@@ -13,15 +13,48 @@ import userRoutes from "./routes/user.routes.js";
 import projectRoutes from "./routes/project.routes.js";
 import aiRoutes from "./routes/ai.routes.js";
 
+const defaultAllowedOrigins = [
+  "http://localhost:5173",
+  "http://localhost:3000",
+  "https://sda-eta.vercel.app",
+].filter(Boolean);
+
+const envAllowedOrigins = (process.env.ALLOWED_ORIGINS || "")
+  .split(",")
+  .map((origin) => origin.trim())
+  .filter((origin) => origin.length > 0);
+
+const allowedOrigins = Array.from(
+  new Set([...defaultAllowedOrigins, ...envAllowedOrigins])
+);
+
+const vercelPreviewPattern = /https:\/\/.*\.vercel\.app$/;
+
+const corsOptions = {
+  origin: (origin, callback) => {
+    if (!origin) {
+      return callback(null, true);
+    }
+
+    const isAllowed =
+      allowedOrigins.includes(origin) || vercelPreviewPattern.test(origin);
+
+    if (isAllowed) {
+      return callback(null, true);
+    }
+
+    return callback(new Error(`CORS blocked for origin: ${origin}`));
+  },
+  credentials: true,
+};
+
 // Connect to MongoDB
 connectDB();
 
 const app = express();
 
-app.use(cors({
-  origin: ["http://localhost:5173", "http://localhost:3000"],
-  credentials: true,
-}));
+app.use(cors(corsOptions));
+app.options("*", cors(corsOptions));
 
 app.use(morgan("dev"));
 app.use(express.json());

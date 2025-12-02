@@ -1,7 +1,5 @@
 // import axios from 'axios';
 
-
-
 // const axiosInstance = axios.create({
 //     baseURL:import.meta.env.VITE_API_URL,
 //     headers: {
@@ -11,11 +9,23 @@
 
 // export default axiosInstance;
 
-
 import axios from "axios";
 
+const resolveBaseURL = () => {
+  const envUrl = import.meta.env.VITE_API_URL?.trim();
+  if (envUrl) {
+    return envUrl.replace(/\/$/, "");
+  }
+
+  if (typeof window !== "undefined" && window.location?.origin) {
+    return window.location.origin;
+  }
+
+  return "";
+};
+
 const axiosInstance = axios.create({
-  baseURL: import.meta.env.VITE_API_URL,
+  baseURL: resolveBaseURL(),
 });
 
 // Attach token dynamically before each request

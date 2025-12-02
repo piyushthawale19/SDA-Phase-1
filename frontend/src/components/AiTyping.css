@@ -1,0 +1,76 @@
+/* AI Loading animation styles */
+.ai-typing-indicator {
+  display: inline-flex;
+  align-items: center;
+}
+
+.ai-typing-indicator span {
+  height: 8px;
+  width: 8px;
+  margin: 0 2px;
+  background-color: #60a5fa;
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.6;
+  box-shadow: 0 0 8px rgba(96, 165, 250, 0.5);
+}
+
+.ai-typing-indicator span:nth-child(1) {
+  animation: ai-typing 1.5s infinite 0ms;
+}
+
+.ai-typing-indicator span:nth-child(2) {
+  animation: ai-typing 1.5s infinite 200ms;
+}
+
+.ai-typing-indicator span:nth-child(3) {
+  animation: ai-typing 1.5s infinite 400ms;
+}
+
+@keyframes ai-typing {
+  0% {
+    transform: translateY(0px);
+    opacity: 0.6;
+  }
+  28% {
+    transform: translateY(-5px);
+    opacity: 1;
+    background-color: #3b82f6;
+    box-shadow: 0 0 12px rgba(59, 130, 246, 0.8);
+  }
+  44% {
+    transform: translateY(0px);
+    opacity: 0.6;
+  }
+}
+
+/* Add a shimmer effect to the AI response container */
+.ai-loading-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.ai-loading-container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.05),
+    transparent
+  );
+  animation: shimmer 1.5s infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}

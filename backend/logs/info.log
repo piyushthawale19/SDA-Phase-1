@@ -1,0 +1,2147 @@
+[2025-11-07 13:10:57.121] [INFO] Testing INFO level logging
+  Details: {
+  "testId": 1,
+  "timestamp": "2025-11-07T07:40:57.120Z",
+  "testType": "info"
+}
+[2025-11-07 13:10:57.124] [WARN] Testing WARN level logging
+  Details: {
+  "testId": 2,
+  "timestamp": "2025-11-07T07:40:57.124Z",
+  "warningType": "test-warning"
+}
+[2025-11-07 13:10:57.129] [DEBUG] Testing DEBUG level logging
+  Details: {
+  "testId": 4,
+  "timestamp": "2025-11-07T07:40:57.129Z",
+  "debugInfo": "This should only appear in development mode"
+}
+[2025-11-07 13:10:57.131] [INFO] Testing complex object logging
+  Details: {
+  "testId": 5,
+  "user": {
+    "id": "test-user-123",
+    "name": "Test User",
+    "email": "test@example.com"
+  },
+  "metadata": {
+    "browser": "Chrome",
+    "os": "Windows",
+    "version": "1.0.0"
+  },
+  "arrays": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "timestamp": "2025-11-07T07:40:57.130Z"
+}
+[2025-11-07 13:24:35.115] [INFO] AI request received
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "promptLength": 3,
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 13:24:38.430] [INFO] AI response sent
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "hasFileTree": true,
+  "textLength": 211
+}
+[2025-11-07 13:24:54.646] [INFO] AI request received
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "promptLength": 549,
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 13:25:48.138] [INFO] AI response sent
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "hasFileTree": true,
+  "textLength": 28
+}
+[2025-11-07 13:28:58.683] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 13:29:24.825] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 13:29:39.799] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 13:29:46.986] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 13:30:27.088] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 13:30:28.217] [INFO] User disconnected from project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 13:30:49.384] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 13:30:53.355] [INFO] AI request received
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "promptLength": 38,
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 13:30:53.361] [INFO] Generating AI response
+  Details: {
+  "promptLength": 38,
+  "promptPreview": "create a simple hello world in express"
+}
+[2025-11-07 13:31:01.206] [DEBUG] AI raw response received
+  Details: {
+  "responseLength": 3292
+}
+[2025-11-07 13:31:01.210] [INFO] AI response successfully generated
+  Details: {
+  "hasFileTree": true,
+  "textLength": 77
+}
+[2025-11-07 13:31:01.212] [INFO] AI response sent
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "hasFileTree": true,
+  "textLength": 77
+}
+[2025-11-07 13:32:02.334] [INFO] AI request received
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "promptLength": 549,
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 13:32:02.362] [INFO] Generating AI response
+  Details: {
+  "promptLength": 549,
+  "promptPreview": "Create a modern responsive portfolio website for a web developer named Piyush Thawale.  The website "
+}
+[2025-11-07 13:33:18.926] [DEBUG] AI raw response received
+  Details: {
+  "responseLength": 43231
+}
+[2025-11-07 13:33:18.932] [INFO] AI response successfully generated
+  Details: {
+  "hasFileTree": true,
+  "textLength": 228
+}
+[2025-11-07 13:33:18.935] [INFO] AI response sent
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "hasFileTree": true,
+  "textLength": 228
+}
+[2025-11-07 13:37:49.998] [INFO] User disconnected from project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 13:53:07.079] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 13:53:14.131] [INFO] User disconnected from project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 13:53:15.871] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 13:53:26.684] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale08@gmail.com"
+}
+[2025-11-07 13:53:37.426] [INFO] AI request received
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "promptLength": 549,
+  "userId": "piyushthawale08@gmail.com"
+}
+[2025-11-07 13:53:37.428] [INFO] Generating AI response
+  Details: {
+  "promptLength": 549,
+  "promptPreview": "Create a modern responsive portfolio website for a web developer named Piyush Thawale.  The website "
+}
+[2025-11-07 13:54:58.584] [DEBUG] AI raw response received
+  Details: {
+  "responseLength": 29586
+}
+[2025-11-07 13:54:58.592] [INFO] AI response successfully generated
+  Details: {
+  "hasFileTree": true,
+  "textLength": 259
+}
+[2025-11-07 13:54:58.594] [INFO] AI response sent
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "hasFileTree": true,
+  "textLength": 259
+}
+[2025-11-07 14:00:12.709] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 14:00:13.416] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale08@gmail.com"
+}
+[2025-11-07 14:00:25.335] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale08@gmail.com"
+}
+[2025-11-07 14:00:28.054] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 14:00:28.804] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale08@gmail.com"
+}
+[2025-11-07 14:00:47.735] [INFO] User disconnected from project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 14:00:47.740] [INFO] User disconnected from project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale08@gmail.com"
+}
+[2025-11-07 14:01:12.705] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale08@gmail.com"
+}
+[2025-11-07 14:01:26.916] [INFO] AI request received
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "promptLength": 549,
+  "userId": "piyushthawale08@gmail.com"
+}
+[2025-11-07 14:01:26.927] [INFO] Generating AI response
+  Details: {
+  "promptLength": 549,
+  "promptPreview": "Create a modern responsive portfolio website for a web developer named Piyush Thawale.  The website "
+}
+[2025-11-07 14:02:16.658] [DEBUG] AI raw response received
+  Details: {
+  "responseLength": 33697
+}
+[2025-11-07 14:02:16.676] [INFO] AI response sent
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "hasFileTree": true,
+  "textLength": 81
+}
+[2025-11-07 14:02:27.499] [INFO] AI request received
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "promptLength": 3,
+  "userId": "piyushthawale08@gmail.com"
+}
+[2025-11-07 14:02:27.501] [INFO] Generating AI response
+  Details: {
+  "promptLength": 3,
+  "promptPreview": "hii"
+}
+[2025-11-07 14:02:50.908] [DEBUG] AI raw response received
+  Details: {
+  "responseLength": 12779
+}
+[2025-11-07 14:02:50.910] [INFO] AI response successfully generated
+  Details: {
+  "hasFileTree": true,
+  "textLength": 249
+}
+[2025-11-07 14:02:50.913] [INFO] AI response sent
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "hasFileTree": true,
+  "textLength": 249
+}
+[2025-11-07 14:02:55.201] [INFO] AI request received
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "promptLength": 549,
+  "userId": "piyushthawale08@gmail.com"
+}
+[2025-11-07 14:02:55.203] [INFO] Generating AI response
+  Details: {
+  "promptLength": 549,
+  "promptPreview": "Create a modern responsive portfolio website for a web developer named Piyush Thawale.  The website "
+}
+[2025-11-07 14:03:07.145] [DEBUG] AI raw response received
+  Details: {
+  "responseLength": 2074
+}
+[2025-11-07 14:03:07.149] [INFO] AI response sent
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "hasFileTree": true,
+  "textLength": 81
+}
+[2025-11-07 14:04:08.552] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale08@gmail.com"
+}
+[2025-11-07 14:04:17.249] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale08@gmail.com"
+}
+[2025-11-07 14:04:24.351] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale08@gmail.com"
+}
+[2025-11-07 14:04:37.950] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale08@gmail.com"
+}
+[2025-11-07 14:04:45.550] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale08@gmail.com"
+}
+[2025-11-07 14:04:54.450] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale08@gmail.com"
+}
+[2025-11-07 14:05:20.671] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale08@gmail.com"
+}
+[2025-11-07 14:05:27.536] [INFO] User disconnected from project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale08@gmail.com"
+}
+[2025-11-07 14:05:42.843] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 14:05:55.011] [INFO] AI request received
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "promptLength": 549,
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 14:05:55.014] [INFO] Generating AI response
+  Details: {
+  "promptLength": 549,
+  "promptPreview": "Create a modern responsive portfolio website for a web developer named Piyush Thawale.  The website "
+}
+[2025-11-07 14:06:34.483] [DEBUG] AI raw response received
+  Details: {
+  "responseLength": 21381
+}
+[2025-11-07 14:06:34.487] [WARN] Attempting to sanitize malformed JSON
+  Details: {
+  "errorMessage": "Bad control character in string literal in JSON at position 334 (line 6 column 23)"
+}
+[2025-11-07 14:06:34.506] [INFO] AI response sent
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "hasFileTree": true,
+  "textLength": 81
+}
+[2025-11-07 14:08:57.763] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 14:09:55.947] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 14:10:17.850] [INFO] User disconnected from project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 14:10:32.736] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 14:10:40.764] [INFO] AI request received
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "promptLength": 3,
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 14:10:40.771] [INFO] Generating AI response
+  Details: {
+  "promptLength": 3,
+  "promptPreview": "hii"
+}
+[2025-11-07 14:11:03.189] [DEBUG] AI raw response received
+  Details: {
+  "responseLength": 9407
+}
+[2025-11-07 14:11:03.193] [INFO] AI response successfully generated
+  Details: {
+  "hasFileTree": true,
+  "textLength": 213
+}
+[2025-11-07 14:11:03.195] [INFO] AI response sent
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "hasFileTree": true,
+  "textLength": 213
+}
+[2025-11-07 14:11:25.199] [INFO] AI request received
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "promptLength": 549,
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 14:11:25.201] [INFO] Generating AI response
+  Details: {
+  "promptLength": 549,
+  "promptPreview": "Create a modern responsive portfolio website for a web developer named Piyush Thawale.  The website "
+}
+[2025-11-07 14:11:35.543] [DEBUG] AI raw response received
+  Details: {
+  "responseLength": 2557
+}
+[2025-11-07 14:11:35.546] [WARN] Attempting to sanitize malformed JSON with control characters
+  Details: {
+  "errorMessage": "Bad control character in string literal in JSON at position 375 (line 6 column 23)"
+}
+[2025-11-07 14:11:35.557] [INFO] AI response sent
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "hasFileTree": true,
+  "textLength": 81
+}
+[2025-11-07 14:12:10.169] [INFO] AI request received
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "promptLength": 38,
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 14:12:10.171] [INFO] Generating AI response
+  Details: {
+  "promptLength": 38,
+  "promptPreview": "create a simple hello world in express"
+}
+[2025-11-07 14:12:15.139] [DEBUG] AI raw response received
+  Details: {
+  "responseLength": 1672
+}
+[2025-11-07 14:12:15.140] [INFO] AI response successfully generated
+  Details: {
+  "hasFileTree": true,
+  "textLength": 85
+}
+[2025-11-07 14:12:15.142] [INFO] AI response sent
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "hasFileTree": true,
+  "textLength": 85
+}
+[2025-11-07 14:15:56.602] [INFO] AI request received
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "promptLength": 114,
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 14:15:56.608] [INFO] Generating AI response
+  Details: {
+  "promptLength": 114,
+  "promptPreview": "create a simple Next.js homepage with a navbar, hero section, and footer that says \"AI Website Build"
+}
+[2025-11-07 14:16:12.049] [DEBUG] AI raw response received
+  Details: {
+  "responseLength": 6492
+}
+[2025-11-07 14:16:12.053] [INFO] AI response successfully generated
+  Details: {
+  "hasFileTree": true,
+  "textLength": 216
+}
+[2025-11-07 14:16:12.054] [INFO] AI response sent
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "hasFileTree": true,
+  "textLength": 216
+}
+[2025-11-07 14:22:06.346] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 14:22:17.460] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 14:22:38.645] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 14:22:57.847] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 14:23:57.545] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 14:24:01.590] [INFO] User disconnected from project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 14:24:14.842] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 14:24:22.457] [INFO] AI request received
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "promptLength": 3,
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 14:24:22.461] [INFO] Generating AI response
+  Details: {
+  "promptLength": 3,
+  "promptPreview": "hii"
+}
+[2025-11-07 14:24:26.866] [DEBUG] AI raw response received
+  Details: {
+  "responseLength": 169
+}
+[2025-11-07 14:24:26.872] [INFO] AI response successfully generated
+  Details: {
+  "hasFileTree": true,
+  "textLength": 91
+}
+[2025-11-07 14:24:26.875] [INFO] AI response sent
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "hasFileTree": true,
+  "textLength": 91
+}
+[2025-11-07 14:24:53.013] [INFO] AI request received
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "promptLength": 114,
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 14:24:53.015] [INFO] Generating AI response
+  Details: {
+  "promptLength": 114,
+  "promptPreview": "create a simple Next.js homepage with a navbar, hero section, and footer that says \"AI Website Build"
+}
+[2025-11-07 14:25:23.640] [DEBUG] AI raw response received
+  Details: {
+  "responseLength": 7425
+}
+[2025-11-07 14:25:23.641] [INFO] AI response successfully generated
+  Details: {
+  "hasFileTree": true,
+  "textLength": 192
+}
+[2025-11-07 14:25:23.643] [INFO] AI response sent
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "hasFileTree": true,
+  "textLength": 192
+}
+[2025-11-07 14:28:28.453] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 14:28:37.147] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 14:28:47.543] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 14:29:02.460] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 14:29:03.240] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 14:29:03.249] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 14:29:17.254] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 14:29:17.937] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 14:29:17.942] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 14:29:39.651] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 14:29:40.436] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 14:29:40.441] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 14:30:59.038] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 14:31:04.510] [INFO] AI request received
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "promptLength": 3,
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 14:31:04.513] [INFO] Generating AI response
+  Details: {
+  "promptLength": 3,
+  "promptPreview": "hii"
+}
+[2025-11-07 14:31:21.855] [DEBUG] AI raw response received
+  Details: {
+  "responseLength": 10056
+}
+[2025-11-07 14:31:21.858] [WARN] Attempting to sanitize malformed JSON with control characters
+  Details: {
+  "errorMessage": "Bad control character in string literal in JSON at position 315 (line 6 column 23)"
+}
+[2025-11-07 14:31:21.872] [INFO] AI response sent
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "hasFileTree": true,
+  "textLength": 81
+}
+[2025-11-07 14:32:43.638] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 14:33:11.860] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 14:33:42.482] [INFO] User disconnected from project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 14:33:55.564] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 14:34:02.493] [INFO] AI request received
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "promptLength": 2,
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 14:34:02.499] [INFO] Generating AI response
+  Details: {
+  "promptLength": 2,
+  "promptPreview": "hi"
+}
+[2025-11-07 14:34:10.617] [DEBUG] AI raw response received
+  Details: {
+  "responseLength": 3422
+}
+[2025-11-07 14:34:10.624] [INFO] AI response successfully generated
+  Details: {
+  "hasFileTree": true,
+  "textLength": 87
+}
+[2025-11-07 14:34:10.629] [INFO] AI response sent
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "hasFileTree": true,
+  "textLength": 87
+}
+[2025-11-07 14:34:44.980] [INFO] AI request received
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "promptLength": 114,
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 14:34:44.982] [INFO] Generating AI response
+  Details: {
+  "promptLength": 114,
+  "promptPreview": "create a simple Next.js homepage with a navbar, hero section, and footer that says \"AI Website Build"
+}
+[2025-11-07 14:34:57.061] [DEBUG] AI raw response received
+  Details: {
+  "responseLength": 4669
+}
+[2025-11-07 14:34:57.064] [WARN] Attempting to fix malformed JSON
+  Details: {
+  "errorMessage": "Bad control character in string literal in JSON at position 214 (line 6 column 23)"
+}
+[2025-11-07 14:34:57.073] [INFO] AI response sent
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "hasFileTree": true,
+  "textLength": 81
+}
+[2025-11-07 14:35:16.533] [INFO] AI request received
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "promptLength": 118,
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 14:35:16.534] [INFO] Generating AI response
+  Details: {
+  "promptLength": 118,
+  "promptPreview": "create a single-page portfolio layout using HTML and TailwindCSS with a hero section, about section,"
+}
+[2025-11-07 14:35:30.554] [DEBUG] AI raw response received
+  Details: {
+  "responseLength": 5922
+}
+[2025-11-07 14:35:30.555] [WARN] Attempting to fix malformed JSON
+  Details: {
+  "errorMessage": "Bad control character in string literal in JSON at position 311 (line 6 column 23)"
+}
+[2025-11-07 14:35:30.559] [INFO] AI response sent
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "hasFileTree": true,
+  "textLength": 81
+}
+[2025-11-07 14:38:13.604] [INFO] GoogleGenerativeAI initialized
+  Details: {
+  "hasApiKey": true,
+  "timestamp": "2025-11-07T09:08:13.596Z"
+}
+[2025-11-07 14:38:15.505] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 14:38:22.165] [INFO] GoogleGenerativeAI initialized
+  Details: {
+  "hasApiKey": true,
+  "timestamp": "2025-11-07T09:08:22.163Z"
+}
+[2025-11-07 14:41:27.164] [INFO] GoogleGenerativeAI initialized
+  Details: {
+  "hasApiKey": true,
+  "timestamp": "2025-11-07T09:11:27.155Z"
+}
+[2025-11-07 14:41:32.665] [INFO] GoogleGenerativeAI initialized
+  Details: {
+  "hasApiKey": true,
+  "timestamp": "2025-11-07T09:11:32.664Z"
+}
+[2025-11-07 14:46:48.187] [INFO] GoogleGenerativeAI initialized
+  Details: {
+  "hasApiKey": true,
+  "timestamp": "2025-11-07T09:16:48.185Z"
+}
+[2025-11-07 14:47:14.657] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 14:47:21.699] [INFO] AI request received
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "promptLength": 3,
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 14:47:21.706] [INFO] Generating AI response
+  Details: {
+  "promptLength": 3,
+  "promptPreview": "hii"
+}
+[2025-11-07 14:47:21.708] [INFO] Initiating AI request
+  Details: {
+  "promptLength": 3,
+  "timestamp": "2025-11-07T09:17:21.708Z"
+}
+[2025-11-07 14:47:23.817] [INFO] Raw AI response received
+  Details: {
+  "responseLength": 31,
+  "timestamp": "2025-11-07T09:17:23.817Z"
+}
+[2025-11-07 14:47:23.819] [DEBUG] AI raw response received
+  Details: {
+  "responseLength": 31
+}
+[2025-11-07 14:47:23.831] [INFO] AI response sent
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "hasFileTree": true,
+  "textLength": 81
+}
+[2025-11-07 14:47:35.848] [INFO] AI request received
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "promptLength": 1020,
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 14:47:35.849] [INFO] Generating AI response
+  Details: {
+  "promptLength": 1020,
+  "promptPreview": "Build a professional, responsive single-page e-commerce website using three files: index.html, packa"
+}
+[2025-11-07 14:47:35.852] [INFO] Initiating AI request
+  Details: {
+  "promptLength": 1020,
+  "timestamp": "2025-11-07T09:17:35.851Z"
+}
+[2025-11-07 14:48:13.272] [INFO] Raw AI response received
+  Details: {
+  "responseLength": 19667,
+  "timestamp": "2025-11-07T09:18:13.272Z"
+}
+[2025-11-07 14:48:13.274] [DEBUG] AI raw response received
+  Details: {
+  "responseLength": 19667
+}
+[2025-11-07 14:48:13.276] [WARN] Attempting to fix malformed JSON
+  Details: {
+  "errorMessage": "Unterminated string in JSON at position 19667 (line 2 column 19666)",
+  "jsonLength": 19667,
+  "firstChars": "{\n  \"index.html\": \"<!DOCTYPE html>\\n<html lang=\\\"e"
+}
+[2025-11-07 14:48:13.282] [INFO] AI response sent
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "hasFileTree": true,
+  "textLength": 81
+}
+[2025-11-07 14:50:22.707] [INFO] GoogleGenerativeAI initialized
+  Details: {
+  "hasApiKey": true,
+  "timestamp": "2025-11-07T09:20:22.701Z"
+}
+[2025-11-07 14:50:24.473] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 14:50:29.443] [INFO] GoogleGenerativeAI initialized
+  Details: {
+  "hasApiKey": true,
+  "timestamp": "2025-11-07T09:20:29.442Z"
+}
+[2025-11-07 14:50:30.780] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 14:50:42.805] [INFO] GoogleGenerativeAI initialized
+  Details: {
+  "hasApiKey": true,
+  "timestamp": "2025-11-07T09:20:42.804Z"
+}
+[2025-11-07 14:50:44.476] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 14:51:24.068] [INFO] GoogleGenerativeAI initialized
+  Details: {
+  "hasApiKey": true,
+  "timestamp": "2025-11-07T09:21:24.067Z"
+}
+[2025-11-07 14:51:25.574] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 14:51:38.321] [INFO] GoogleGenerativeAI initialized
+  Details: {
+  "hasApiKey": true,
+  "timestamp": "2025-11-07T09:21:38.320Z"
+}
+[2025-11-07 14:51:39.373] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 14:51:43.540] [INFO] GoogleGenerativeAI initialized
+  Details: {
+  "hasApiKey": true,
+  "timestamp": "2025-11-07T09:21:43.539Z"
+}
+[2025-11-07 14:51:44.772] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 14:52:09.870] [INFO] User disconnected from project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 14:52:10.774] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 14:52:27.671] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 14:52:43.325] [INFO] AI request received
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "promptLength": 118,
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 14:52:43.327] [INFO] Generating AI response
+  Details: {
+  "promptLength": 118,
+  "promptPreview": "create a single-page portfolio layout using HTML and TailwindCSS with a hero section, about section,"
+}
+[2025-11-07 14:52:43.329] [INFO] Initiating AI request
+  Details: {
+  "promptLength": 118,
+  "timestamp": "2025-11-07T09:22:43.329Z"
+}
+[2025-11-07 14:53:00.492] [INFO] Raw AI response received
+  Details: {
+  "responseLength": 5854,
+  "timestamp": "2025-11-07T09:23:00.492Z"
+}
+[2025-11-07 14:53:00.494] [DEBUG] AI raw response received
+  Details: {
+  "responseLength": 5854
+}
+[2025-11-07 14:53:00.497] [INFO] AI response successfully generated
+  Details: {
+  "hasFileTree": true,
+  "textLength": 158
+}
+[2025-11-07 14:53:00.498] [INFO] AI response sent
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "hasFileTree": true,
+  "textLength": 158
+}
+[2025-11-07 14:54:38.802] [INFO] GoogleGenerativeAI initialized
+  Details: {
+  "hasApiKey": true,
+  "timestamp": "2025-11-07T09:24:38.794Z"
+}
+[2025-11-07 14:54:40.114] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 14:54:40.482] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 14:55:23.495] [INFO] AI request received
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "promptLength": 114,
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 14:55:23.498] [INFO] Generating AI response
+  Details: {
+  "promptLength": 114,
+  "promptPreview": "create a simple Next.js homepage with a navbar, hero section, and footer that says \"AI Website Build"
+}
+[2025-11-07 14:55:23.499] [INFO] Initiating AI request
+  Details: {
+  "promptLength": 114,
+  "timestamp": "2025-11-07T09:25:23.499Z"
+}
+[2025-11-07 14:55:43.886] [INFO] Raw AI response received
+  Details: {
+  "responseLength": 5142,
+  "timestamp": "2025-11-07T09:25:43.886Z"
+}
+[2025-11-07 14:55:43.888] [DEBUG] AI raw response received
+  Details: {
+  "responseLength": 5142
+}
+[2025-11-07 14:55:43.891] [WARN] Sanitized invalid file path
+  Details: {
+  "original": "pages/_app.js",
+  "sanitized": "_app.js"
+}
+[2025-11-07 14:55:43.894] [WARN] Sanitized invalid file path
+  Details: {
+  "original": "pages/index.js",
+  "sanitized": "index.js"
+}
+[2025-11-07 14:55:43.896] [WARN] Sanitized invalid file path
+  Details: {
+  "original": "components/Navbar.js",
+  "sanitized": "Navbar.js"
+}
+[2025-11-07 14:55:43.897] [WARN] Sanitized invalid file path
+  Details: {
+  "original": "components/Hero.js",
+  "sanitized": "Hero.js"
+}
+[2025-11-07 14:55:43.899] [WARN] Sanitized invalid file path
+  Details: {
+  "original": "components/Footer.js",
+  "sanitized": "Footer.js"
+}
+[2025-11-07 14:55:43.900] [WARN] Sanitized invalid file path
+  Details: {
+  "original": "styles/globals.css",
+  "sanitized": "globals.css"
+}
+[2025-11-07 14:55:43.903] [INFO] AI response successfully generated
+  Details: {
+  "hasFileTree": true,
+  "textLength": 117
+}
+[2025-11-07 14:55:43.905] [DEBUG] Normalized AI files
+  Details: {
+  "fileNames": [
+    "package.json",
+    "next.config.js",
+    "_app.js",
+    "index.js",
+    "Navbar.js",
+    "Hero.js",
+    "Footer.js",
+    "globals.css"
+  ]
+}
+[2025-11-07 14:55:43.910] [INFO] AI response sent
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "hasFileTree": true,
+  "textLength": 117
+}
+[2025-11-07 14:55:53.484] [INFO] GoogleGenerativeAI initialized
+  Details: {
+  "hasApiKey": true,
+  "timestamp": "2025-11-07T09:25:53.482Z"
+}
+[2025-11-07 14:55:55.270] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 14:55:55.967] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 14:56:14.505] [INFO] GoogleGenerativeAI initialized
+  Details: {
+  "hasApiKey": true,
+  "timestamp": "2025-11-07T09:26:14.494Z"
+}
+[2025-11-07 14:56:15.570] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 14:56:16.167] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 14:56:31.466] [INFO] GoogleGenerativeAI initialized
+  Details: {
+  "hasApiKey": true,
+  "timestamp": "2025-11-07T09:26:31.465Z"
+}
+[2025-11-07 14:56:32.775] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 14:56:33.265] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 14:57:41.003] [INFO] GoogleGenerativeAI initialized
+  Details: {
+  "hasApiKey": true,
+  "timestamp": "2025-11-07T09:27:40.994Z"
+}
+[2025-11-07 14:57:42.677] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 14:57:43.268] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 14:58:19.581] [INFO] User disconnected from project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 14:58:19.593] [INFO] User disconnected from project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 14:58:20.700] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 14:58:23.328] [INFO] User disconnected from project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 14:58:39.367] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 14:58:56.082] [INFO] AI request received
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "promptLength": 114,
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-07 14:58:56.086] [INFO] Generating AI response
+  Details: {
+  "promptLength": 114,
+  "promptPreview": "create a simple Next.js homepage with a navbar, hero section, and footer that says \"AI Website Build"
+}
+[2025-11-07 14:58:56.087] [INFO] Initiating AI request
+  Details: {
+  "promptLength": 114,
+  "timestamp": "2025-11-07T09:28:56.087Z"
+}
+[2025-11-07 14:59:19.512] [INFO] Raw AI response received
+  Details: {
+  "responseLength": 3949,
+  "timestamp": "2025-11-07T09:29:19.512Z"
+}
+[2025-11-07 14:59:19.515] [DEBUG] AI raw response received
+  Details: {
+  "responseLength": 3949
+}
+[2025-11-07 14:59:19.519] [INFO] AI response successfully generated
+  Details: {
+  "hasFileTree": true,
+  "textLength": 284
+}
+[2025-11-07 14:59:19.522] [DEBUG] Normalized AI files
+  Details: {
+  "fileNames": [
+    "package.json",
+    "next.config.js",
+    "postcss.config.js",
+    "tailwind.config.js",
+    "globals.css",
+    "layout.js",
+    "page.js"
+  ]
+}
+[2025-11-07 14:59:19.537] [INFO] AI response sent
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "hasFileTree": true,
+  "textLength": 284
+}
+[2025-11-07 15:01:29.505] [INFO] User disconnected from project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-26 23:13:10.477] [INFO] GoogleGenerativeAI initialized
+  Details: {
+  "hasApiKey": true,
+  "timestamp": "2025-11-26T17:43:10.476Z"
+}
+[2025-11-26 23:14:04.718] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c9056f679cde6bcd3bf9",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-26 23:14:29.454] [INFO] AI request received
+  Details: {
+  "projectId": "68f0c9056f679cde6bcd3bf9",
+  "promptLength": 3,
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-26 23:14:29.456] [INFO] Generating AI response
+  Details: {
+  "promptLength": 3,
+  "promptPreview": "hii"
+}
+[2025-11-26 23:14:29.457] [INFO] Initiating AI request
+  Details: {
+  "promptLength": 3,
+  "timestamp": "2025-11-26T17:44:29.457Z"
+}
+[2025-11-26 23:14:32.369] [INFO] Raw AI response received
+  Details: {
+  "responseLength": 337,
+  "timestamp": "2025-11-26T17:44:32.369Z"
+}
+[2025-11-26 23:14:32.370] [DEBUG] AI raw response received
+  Details: {
+  "responseLength": 337
+}
+[2025-11-26 23:14:32.373] [INFO] AI response successfully generated
+  Details: {
+  "hasFileTree": false,
+  "textLength": 97
+}
+[2025-11-26 23:14:32.375] [DEBUG] Normalized AI files
+  Details: {
+  "fileNames": []
+}
+[2025-11-26 23:14:32.376] [INFO] AI response sent
+  Details: {
+  "projectId": "68f0c9056f679cde6bcd3bf9",
+  "hasFileTree": true,
+  "textLength": 97
+}
+[2025-11-26 23:15:06.972] [INFO] AI request received
+  Details: {
+  "projectId": "68f0c9056f679cde6bcd3bf9",
+  "promptLength": 1587,
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-26 23:15:06.973] [INFO] Generating AI response
+  Details: {
+  "promptLength": 1587,
+  "promptPreview": "\"Create a professional, responsive e-commerce single-page website project with three files: index.ht"
+}
+[2025-11-26 23:15:06.974] [INFO] Initiating AI request
+  Details: {
+  "promptLength": 1587,
+  "timestamp": "2025-11-26T17:45:06.974Z"
+}
+[2025-11-26 23:15:42.317] [INFO] Raw AI response received
+  Details: {
+  "responseLength": 0,
+  "timestamp": "2025-11-26T17:45:42.317Z"
+}
+[2025-11-26 23:15:42.323] [INFO] AI response sent
+  Details: {
+  "projectId": "68f0c9056f679cde6bcd3bf9",
+  "hasFileTree": true,
+  "textLength": 48
+}
+[2025-11-26 23:15:47.969] [INFO] User disconnected from project
+  Details: {
+  "projectId": "68f0c9056f679cde6bcd3bf9",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-26 23:15:48.956] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c9056f679cde6bcd3bf9",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-26 23:15:59.532] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c9056f679cde6bcd3bf9",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-26 23:16:08.603] [INFO] AI request received
+  Details: {
+  "projectId": "68f0c9056f679cde6bcd3bf9",
+  "promptLength": 3,
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-26 23:16:08.607] [INFO] Generating AI response
+  Details: {
+  "promptLength": 3,
+  "promptPreview": "hii"
+}
+[2025-11-26 23:16:08.610] [INFO] Initiating AI request
+  Details: {
+  "promptLength": 3,
+  "timestamp": "2025-11-26T17:46:08.610Z"
+}
+[2025-11-26 23:16:30.603] [INFO] Raw AI response received
+  Details: {
+  "responseLength": 8370,
+  "timestamp": "2025-11-26T17:46:30.603Z"
+}
+[2025-11-26 23:16:30.605] [DEBUG] AI raw response received
+  Details: {
+  "responseLength": 8370
+}
+[2025-11-26 23:16:30.606] [INFO] AI response successfully generated
+  Details: {
+  "hasFileTree": true,
+  "textLength": 156
+}
+[2025-11-26 23:16:30.607] [DEBUG] Normalized AI files
+  Details: {
+  "fileNames": [
+    "package.json",
+    "server.js",
+    "webpack.config.js",
+    "index.html",
+    "index.js",
+    "App.js",
+    "README.md"
+  ]
+}
+[2025-11-26 23:16:30.609] [INFO] AI response sent
+  Details: {
+  "projectId": "68f0c9056f679cde6bcd3bf9",
+  "hasFileTree": true,
+  "textLength": 156
+}
+[2025-11-26 23:16:52.812] [INFO] AI request received
+  Details: {
+  "projectId": "68f0c9056f679cde6bcd3bf9",
+  "promptLength": 1587,
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-26 23:16:52.813] [INFO] Generating AI response
+  Details: {
+  "promptLength": 1587,
+  "promptPreview": "\"Create a professional, responsive e-commerce single-page website project with three files: index.ht"
+}
+[2025-11-26 23:16:52.815] [INFO] Initiating AI request
+  Details: {
+  "promptLength": 1587,
+  "timestamp": "2025-11-26T17:46:52.815Z"
+}
+[2025-11-26 23:17:33.961] [INFO] Raw AI response received
+  Details: {
+  "responseLength": 0,
+  "timestamp": "2025-11-26T17:47:33.961Z"
+}
+[2025-11-26 23:17:33.964] [INFO] AI response sent
+  Details: {
+  "projectId": "68f0c9056f679cde6bcd3bf9",
+  "hasFileTree": true,
+  "textLength": 48
+}
+[2025-11-26 23:17:40.258] [INFO] User disconnected from project
+  Details: {
+  "projectId": "68f0c9056f679cde6bcd3bf9",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-26 23:17:40.268] [INFO] User disconnected from project
+  Details: {
+  "projectId": "68f0c9056f679cde6bcd3bf9",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-26 23:17:40.759] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c9056f679cde6bcd3bf9",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-26 23:17:48.151] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-26 23:19:19.176] [INFO] User disconnected from project
+  Details: {
+  "projectId": "68f0c9056f679cde6bcd3bf9",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-26 23:19:19.191] [INFO] User disconnected from project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-26 23:19:21.097] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-26 23:19:27.298] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c9056f679cde6bcd3bf9",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-26 23:19:35.620] [INFO] AI request received
+  Details: {
+  "projectId": "68f0c9056f679cde6bcd3bf9",
+  "promptLength": 3,
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-26 23:19:35.621] [INFO] Generating AI response
+  Details: {
+  "promptLength": 3,
+  "promptPreview": "hii"
+}
+[2025-11-26 23:19:35.622] [INFO] Initiating AI request
+  Details: {
+  "promptLength": 3,
+  "timestamp": "2025-11-26T17:49:35.622Z"
+}
+[2025-11-26 23:19:38.669] [INFO] Raw AI response received
+  Details: {
+  "responseLength": 453,
+  "timestamp": "2025-11-26T17:49:38.669Z"
+}
+[2025-11-26 23:19:38.670] [DEBUG] AI raw response received
+  Details: {
+  "responseLength": 453
+}
+[2025-11-26 23:19:38.672] [INFO] AI response successfully generated
+  Details: {
+  "hasFileTree": false,
+  "textLength": 108
+}
+[2025-11-26 23:19:38.672] [DEBUG] Normalized AI files
+  Details: {
+  "fileNames": []
+}
+[2025-11-26 23:19:38.673] [INFO] AI response sent
+  Details: {
+  "projectId": "68f0c9056f679cde6bcd3bf9",
+  "hasFileTree": true,
+  "textLength": 108
+}
+[2025-11-26 23:19:58.450] [INFO] AI request received
+  Details: {
+  "projectId": "68f0c9056f679cde6bcd3bf9",
+  "promptLength": 1268,
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-26 23:19:58.451] [INFO] Generating AI response
+  Details: {
+  "promptLength": 1268,
+  "promptPreview": "Build a professional, responsive single-page e-commerce website using three files: index.html, packa"
+}
+[2025-11-26 23:19:58.452] [INFO] Initiating AI request
+  Details: {
+  "promptLength": 1268,
+  "timestamp": "2025-11-26T17:49:58.452Z"
+}
+[2025-11-26 23:20:37.672] [INFO] Raw AI response received
+  Details: {
+  "responseLength": 0,
+  "timestamp": "2025-11-26T17:50:37.672Z"
+}
+[2025-11-26 23:20:37.675] [INFO] AI response sent
+  Details: {
+  "projectId": "68f0c9056f679cde6bcd3bf9",
+  "hasFileTree": true,
+  "textLength": 48
+}
+[2025-11-26 23:21:19.641] [INFO] User connected to project
+  Details: {
+  "projectId": "691c041a295c441709172371",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-26 23:21:57.390] [INFO] AI request received
+  Details: {
+  "projectId": "691c041a295c441709172371",
+  "promptLength": 4,
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-26 23:21:57.392] [INFO] Generating AI response
+  Details: {
+  "promptLength": 4,
+  "promptPreview": "hiii"
+}
+[2025-11-26 23:21:57.393] [INFO] Initiating AI request
+  Details: {
+  "promptLength": 4,
+  "timestamp": "2025-11-26T17:51:57.393Z"
+}
+[2025-11-26 23:22:09.378] [INFO] AI response sent
+  Details: {
+  "projectId": "691c041a295c441709172371",
+  "hasFileTree": true,
+  "textLength": 54
+}
+[2025-11-26 23:22:22.236] [INFO] User connected to project
+  Details: {
+  "projectId": "691c041a295c441709172371",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-26 23:22:33.390] [INFO] AI request received
+  Details: {
+  "projectId": "691c041a295c441709172371",
+  "promptLength": 3,
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-26 23:22:33.391] [INFO] Generating AI response
+  Details: {
+  "promptLength": 3,
+  "promptPreview": "hhi"
+}
+[2025-11-26 23:22:33.392] [INFO] Initiating AI request
+  Details: {
+  "promptLength": 3,
+  "timestamp": "2025-11-26T17:52:33.392Z"
+}
+[2025-11-26 23:22:35.648] [INFO] Raw AI response received
+  Details: {
+  "responseLength": 480,
+  "timestamp": "2025-11-26T17:52:35.647Z"
+}
+[2025-11-26 23:22:35.648] [DEBUG] AI raw response received
+  Details: {
+  "responseLength": 480
+}
+[2025-11-26 23:22:35.649] [INFO] AI response successfully generated
+  Details: {
+  "hasFileTree": false,
+  "textLength": 122
+}
+[2025-11-26 23:22:35.650] [DEBUG] Normalized AI files
+  Details: {
+  "fileNames": []
+}
+[2025-11-26 23:22:35.651] [INFO] AI response sent
+  Details: {
+  "projectId": "691c041a295c441709172371",
+  "hasFileTree": true,
+  "textLength": 122
+}
+[2025-11-26 23:22:39.110] [INFO] User connected to project
+  Details: {
+  "projectId": "691c041a295c441709172371",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-26 23:22:45.610] [INFO] AI request received
+  Details: {
+  "projectId": "691c041a295c441709172371",
+  "promptLength": 3,
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-26 23:22:45.611] [INFO] Generating AI response
+  Details: {
+  "promptLength": 3,
+  "promptPreview": "hii"
+}
+[2025-11-26 23:22:45.612] [INFO] Initiating AI request
+  Details: {
+  "promptLength": 3,
+  "timestamp": "2025-11-26T17:52:45.612Z"
+}
+[2025-11-26 23:22:47.971] [INFO] Raw AI response received
+  Details: {
+  "responseLength": 437,
+  "timestamp": "2025-11-26T17:52:47.971Z"
+}
+[2025-11-26 23:22:47.972] [DEBUG] AI raw response received
+  Details: {
+  "responseLength": 437
+}
+[2025-11-26 23:22:47.972] [INFO] AI response successfully generated
+  Details: {
+  "hasFileTree": false,
+  "textLength": 129
+}
+[2025-11-26 23:22:47.973] [DEBUG] Normalized AI files
+  Details: {
+  "fileNames": []
+}
+[2025-11-26 23:22:47.974] [INFO] AI response sent
+  Details: {
+  "projectId": "691c041a295c441709172371",
+  "hasFileTree": true,
+  "textLength": 129
+}
+[2025-11-26 23:22:56.245] [INFO] User connected to project
+  Details: {
+  "projectId": "6911fbb289431099e08c1db1",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-26 23:23:24.514] [INFO] User connected to project
+  Details: {
+  "projectId": "691c041a295c441709172371",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-26 23:23:31.584] [INFO] User disconnected from project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-26 23:23:31.596] [INFO] User disconnected from project
+  Details: {
+  "projectId": "691c041a295c441709172371",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-26 23:23:31.601] [INFO] User disconnected from project
+  Details: {
+  "projectId": "6911fbb289431099e08c1db1",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-26 23:23:31.604] [INFO] User disconnected from project
+  Details: {
+  "projectId": "691c041a295c441709172371",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-26 23:23:31.609] [INFO] User disconnected from project
+  Details: {
+  "projectId": "691c041a295c441709172371",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-26 23:23:31.613] [INFO] User disconnected from project
+  Details: {
+  "projectId": "691c041a295c441709172371",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-26 23:23:31.616] [INFO] User disconnected from project
+  Details: {
+  "projectId": "68f0c9056f679cde6bcd3bf9",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-26 23:23:32.021] [INFO] User connected to project
+  Details: {
+  "projectId": "691c041a295c441709172371",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-26 23:23:38.512] [INFO] User connected to project
+  Details: {
+  "projectId": "691c041a295c441709172371",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-26 23:24:51.544] [INFO] User disconnected from project
+  Details: {
+  "projectId": "691c041a295c441709172371",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-11-26 23:24:51.547] [INFO] User disconnected from project
+  Details: {
+  "projectId": "691c041a295c441709172371",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-12-02 21:31:50.542] [INFO] GoogleGenerativeAI initialized
+  Details: {
+  "hasApiKey": true,
+  "timestamp": "2025-12-02T16:01:50.541Z"
+}
+[2025-12-02 21:34:01.099] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-12-02 21:46:09.401] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale08@gmail.com"
+}
+[2025-12-02 21:46:15.502] [INFO] AI request received
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "promptLength": 1268,
+  "userId": "piyushthawale08@gmail.com"
+}
+[2025-12-02 21:46:15.506] [INFO] Generating AI response
+  Details: {
+  "promptLength": 1268,
+  "promptPreview": "Build a professional, responsive single-page e-commerce website using three files: index.html, packa"
+}
+[2025-12-02 21:46:15.510] [INFO] Initiating AI request
+  Details: {
+  "promptLength": 1268,
+  "timestamp": "2025-12-02T16:16:15.509Z"
+}
+[2025-12-02 21:46:54.556] [INFO] Raw AI response received
+  Details: {
+  "responseLength": 0,
+  "timestamp": "2025-12-02T16:16:54.556Z"
+}
+[2025-12-02 21:46:54.576] [INFO] AI response sent
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "hasFileTree": true,
+  "textLength": 48
+}
+[2025-12-02 21:52:45.019] [INFO] GoogleGenerativeAI initialized
+  Details: {
+  "hasApiKey": true,
+  "timestamp": "2025-12-02T16:22:45.010Z"
+}
+[2025-12-02 21:52:55.582] [INFO] GoogleGenerativeAI initialized
+  Details: {
+  "hasApiKey": true,
+  "timestamp": "2025-12-02T16:22:55.580Z"
+}
+[2025-12-02 21:53:05.464] [INFO] GoogleGenerativeAI initialized
+  Details: {
+  "hasApiKey": true,
+  "timestamp": "2025-12-02T16:23:05.463Z"
+}
+[2025-12-02 21:54:52.682] [INFO] GoogleGenerativeAI initialized
+  Details: {
+  "hasApiKey": true,
+  "timestamp": "2025-12-02T16:24:52.681Z"
+}
+[2025-12-02 21:54:57.282] [INFO] GoogleGenerativeAI initialized
+  Details: {
+  "hasApiKey": true,
+  "timestamp": "2025-12-02T16:24:57.281Z"
+}
+[2025-12-02 21:56:08.110] [INFO] GoogleGenerativeAI initialized
+  Details: {
+  "hasApiKey": true,
+  "timestamp": "2025-12-02T16:26:08.110Z"
+}
+[2025-12-02 21:57:05.157] [INFO] GoogleGenerativeAI initialized
+  Details: {
+  "hasApiKey": true,
+  "timestamp": "2025-12-02T16:27:05.156Z"
+}
+[2025-12-02 21:58:46.437] [INFO] GoogleGenerativeAI initialized
+  Details: {
+  "hasApiKey": true,
+  "timestamp": "2025-12-02T16:28:46.435Z"
+}
+[2025-12-02 22:00:57.646] [INFO] GoogleGenerativeAI initialized
+  Details: {
+  "hasApiKey": true,
+  "timestamp": "2025-12-02T16:30:57.642Z"
+}
+[2025-12-02 22:01:34.699] [INFO] GoogleGenerativeAI initialized
+  Details: {
+  "hasApiKey": false,
+  "timestamp": "2025-12-02T16:31:34.699Z"
+}
+[2025-12-02 22:01:34.701] [INFO] Generating AI response
+  Details: {
+  "promptLength": 43,
+  "attempt": 1,
+  "promptPreview": "Create a simple Node.js server with Express"
+}
+[2025-12-02 22:01:34.703] [INFO] Initiating AI request
+  Details: {
+  "promptLength": 43,
+  "timestamp": "2025-12-02T16:31:34.703Z"
+}
+[2025-12-02 22:03:00.964] [INFO] GoogleGenerativeAI initialized
+  Details: {
+  "hasApiKey": true,
+  "timestamp": "2025-12-02T16:33:00.962Z"
+}
+[2025-12-02 22:03:00.984] [INFO] Generating AI response
+  Details: {
+  "promptLength": 43,
+  "attempt": 1,
+  "promptPreview": "Create a simple Node.js server with Express"
+}
+[2025-12-02 22:03:00.988] [INFO] Initiating AI request
+  Details: {
+  "promptLength": 43,
+  "timestamp": "2025-12-02T16:33:00.987Z"
+}
+[2025-12-02 22:03:07.599] [INFO] Raw AI response received
+  Details: {
+  "responseLength": 2754,
+  "timestamp": "2025-12-02T16:33:07.599Z"
+}
+[2025-12-02 22:03:07.602] [DEBUG] AI raw response received
+  Details: {
+  "responseLength": 2754
+}
+[2025-12-02 22:03:07.606] [INFO] AI response successfully generated
+  Details: {
+  "hasFileTree": true,
+  "textLength": 88
+}
+[2025-12-02 22:03:07.609] [DEBUG] Normalized AI files
+  Details: {
+  "fileNames": [
+    "package.json",
+    "server.js",
+    "README.md"
+  ]
+}
+[2025-12-02 22:03:58.197] [INFO] GoogleGenerativeAI initialized
+  Details: {
+  "hasApiKey": true,
+  "timestamp": "2025-12-02T16:33:58.196Z"
+}
+[2025-12-02 22:04:17.284] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-12-02 22:04:27.598] [INFO] AI request received
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "promptLength": 158,
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-12-02 22:04:27.606] [INFO] Generating AI response
+  Details: {
+  "promptLength": 158,
+  "attempt": 1,
+  "promptPreview": "create an sever on index.html like with html in css aslo javascripts in html page some css like goog"
+}
+[2025-12-02 22:04:27.612] [INFO] Initiating AI request
+  Details: {
+  "promptLength": 158,
+  "timestamp": "2025-12-02T16:34:27.612Z"
+}
+[2025-12-02 22:04:45.303] [INFO] Raw AI response received
+  Details: {
+  "responseLength": 7541,
+  "timestamp": "2025-12-02T16:34:45.303Z"
+}
+[2025-12-02 22:04:45.310] [DEBUG] AI raw response received
+  Details: {
+  "responseLength": 7541
+}
+[2025-12-02 22:04:45.317] [INFO] AI response successfully generated
+  Details: {
+  "hasFileTree": true,
+  "textLength": 235
+}
+[2025-12-02 22:04:45.326] [DEBUG] Normalized AI files
+  Details: {
+  "fileNames": [
+    "index.html",
+    "server.js",
+    "package.json"
+  ]
+}
+[2025-12-02 22:04:45.344] [INFO] AI response sent
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "hasFileTree": true,
+  "textLength": 235
+}
+[2025-12-02 22:11:00.653] [INFO] AI request received
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "promptLength": 1765,
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-12-02 22:11:00.668] [INFO] Generating AI response
+  Details: {
+  "promptLength": 1765,
+  "attempt": 1,
+  "promptPreview": "Create a professional, responsive single-page Login and Sign-Up website project with three files: in"
+}
+[2025-12-02 22:11:00.672] [INFO] Initiating AI request
+  Details: {
+  "promptLength": 1765,
+  "timestamp": "2025-12-02T16:41:00.671Z"
+}
+[2025-12-02 22:11:37.022] [INFO] Raw AI response received
+  Details: {
+  "responseLength": 0,
+  "timestamp": "2025-12-02T16:41:37.022Z"
+}
+[2025-12-02 22:11:37.029] [WARN] Retryable AI error, attempting retry
+  Details: {
+  "attempt": 1,
+  "error": "Empty response from AI model",
+  "promptSnippet": "Create a professional, responsive single-page Logi"
+}
+[2025-12-02 22:11:38.047] [INFO] Generating AI response
+  Details: {
+  "promptLength": 1849,
+  "attempt": 2,
+  "promptPreview": "Create a professional, responsive single-page Login and Sign-Up website project with three files: in"
+}
+[2025-12-02 22:11:38.053] [INFO] Initiating AI request
+  Details: {
+  "promptLength": 1849,
+  "timestamp": "2025-12-02T16:41:38.053Z"
+}
+[2025-12-02 22:12:03.103] [INFO] GoogleGenerativeAI initialized
+  Details: {
+  "hasApiKey": true,
+  "timestamp": "2025-12-02T16:42:03.092Z"
+}
+[2025-12-02 22:12:04.180] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-12-02 22:12:30.553] [INFO] User disconnected from project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-12-02 22:12:50.385] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-12-02 22:13:02.080] [INFO] AI request received
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "promptLength": 1765,
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-12-02 22:13:02.097] [INFO] Generating AI response
+  Details: {
+  "promptLength": 1765,
+  "attempt": 1,
+  "promptPreview": "Create a professional, responsive single-page Login and Sign-Up website project with three files: in"
+}
+[2025-12-02 22:13:02.117] [INFO] Initiating AI request
+  Details: {
+  "promptLength": 1765,
+  "timestamp": "2025-12-02T16:43:02.113Z"
+}
+[2025-12-02 22:13:42.038] [INFO] Raw AI response received
+  Details: {
+  "responseLength": 0,
+  "timestamp": "2025-12-02T16:43:42.037Z"
+}
+[2025-12-02 22:13:42.059] [WARN] Retryable AI error, attempting retry
+  Details: {
+  "attempt": 1,
+  "error": "Empty response from AI model",
+  "promptSnippet": "Create a professional, responsive single-page Logi"
+}
+[2025-12-02 22:13:43.077] [INFO] Generating AI response
+  Details: {
+  "promptLength": 1849,
+  "attempt": 2,
+  "promptPreview": "Create a professional, responsive single-page Login and Sign-Up website project with three files: in"
+}
+[2025-12-02 22:13:43.081] [INFO] Initiating AI request
+  Details: {
+  "promptLength": 1849,
+  "timestamp": "2025-12-02T16:43:43.080Z"
+}
+[2025-12-02 22:14:20.310] [INFO] Raw AI response received
+  Details: {
+  "responseLength": 0,
+  "timestamp": "2025-12-02T16:44:20.310Z"
+}
+[2025-12-02 22:14:20.314] [WARN] Retryable AI error, attempting retry
+  Details: {
+  "attempt": 2,
+  "error": "Empty response from AI model",
+  "promptSnippet": "Create a professional, responsive single-page Logi"
+}
+[2025-12-02 22:14:22.317] [INFO] Generating AI response
+  Details: {
+  "promptLength": 1933,
+  "attempt": 3,
+  "promptPreview": "Create a professional, responsive single-page Login and Sign-Up website project with three files: in"
+}
+[2025-12-02 22:14:22.319] [INFO] Initiating AI request
+  Details: {
+  "promptLength": 1933,
+  "timestamp": "2025-12-02T16:44:22.319Z"
+}
+[2025-12-02 22:15:00.317] [INFO] Raw AI response received
+  Details: {
+  "responseLength": 0,
+  "timestamp": "2025-12-02T16:45:00.317Z"
+}
+[2025-12-02 22:15:00.344] [INFO] AI response sent
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "hasFileTree": true,
+  "textLength": 48
+}
+[2025-12-02 22:15:25.315] [INFO] AI request received
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "promptLength": 501,
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-12-02 22:15:25.318] [INFO] Generating AI response
+  Details: {
+  "promptLength": 501,
+  "attempt": 1,
+  "promptPreview": "Create an Express.js server using modern ES6 syntax. Use import express from \"express\" instead of us"
+}
+[2025-12-02 22:15:25.320] [INFO] Initiating AI request
+  Details: {
+  "promptLength": 501,
+  "timestamp": "2025-12-02T16:45:25.320Z"
+}
+[2025-12-02 22:15:31.274] [INFO] Raw AI response received
+  Details: {
+  "responseLength": 2015,
+  "timestamp": "2025-12-02T16:45:31.274Z"
+}
+[2025-12-02 22:15:31.277] [DEBUG] AI raw response received
+  Details: {
+  "responseLength": 2015
+}
+[2025-12-02 22:15:31.285] [INFO] AI response successfully generated
+  Details: {
+  "hasFileTree": true,
+  "textLength": 167
+}
+[2025-12-02 22:15:31.287] [DEBUG] Normalized AI files
+  Details: {
+  "fileNames": [
+    "package.json",
+    "server.js"
+  ]
+}
+[2025-12-02 22:15:31.290] [INFO] AI response sent
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "hasFileTree": true,
+  "textLength": 167
+}
+[2025-12-02 22:18:02.599] [INFO] User disconnected from project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-12-02 22:18:04.173] [INFO] User connected to project
+  Details: {
+  "projectId": "68f0c8336f679cde6bcd3bbf",
+  "userId": "piyushthawale1@gmail.com"
+}
+[2025-12-02 22:18:32.491] [INFO] User connected to project
+  Details: {
+  "projectId": "6911fbb289431099e08c1db1",
+  "userId": "piyushthawale08@gmail.com"
+}
+[2025-12-02 22:18:38.014] [INFO] AI request received
+  Details: {
+  "projectId": "6911fbb289431099e08c1db1",
+  "promptLength": 1919,
+  "userId": "piyushthawale08@gmail.com"
+}
+[2025-12-02 22:18:38.016] [INFO] Generating AI response
+  Details: {
+  "promptLength": 1919,
+  "attempt": 1,
+  "promptPreview": "Create a server project with three files: index.html, package.json, and server.js. The index.html mu"
+}
+[2025-12-02 22:18:38.018] [INFO] Initiating AI request
+  Details: {
+  "promptLength": 1919,
+  "timestamp": "2025-12-02T16:48:38.018Z"
+}
+[2025-12-02 22:19:16.911] [INFO] Raw AI response received
+  Details: {
+  "responseLength": 20978,
+  "timestamp": "2025-12-02T16:49:16.911Z"
+}
+[2025-12-02 22:19:16.913] [DEBUG] AI raw response received
+  Details: {
+  "responseLength": 20978
+}
+[2025-12-02 22:19:16.917] [WARN] Attempting to fix malformed JSON
+  Details: {
+  "errorMessage": "Unexpected end of JSON input",
+  "jsonLength": 20978,
+  "firstChars": "{\n  \"text\": \"A professional, responsive single-pag"
+}
+[2025-12-02 22:19:16.926] [INFO] AI response sent
+  Details: {
+  "projectId": "6911fbb289431099e08c1db1",
+  "hasFileTree": true,
+  "textLength": 81
+}
+[2025-12-02 22:19:23.943] [INFO] AI request received
+  Details: {
+  "projectId": "6911fbb289431099e08c1db1",
+  "promptLength": 928,
+  "userId": "piyushthawale08@gmail.com"
+}
+[2025-12-02 22:19:23.945] [INFO] Generating AI response
+  Details: {
+  "promptLength": 928,
+  "attempt": 1,
+  "promptPreview": "\"Create a responsive single-page website project with three files: index.html, package.json, and ser"
+}
+[2025-12-02 22:19:23.946] [INFO] Initiating AI request
+  Details: {
+  "promptLength": 928,
+  "timestamp": "2025-12-02T16:49:23.946Z"
+}
+[2025-12-02 22:19:47.043] [INFO] Raw AI response received
+  Details: {
+  "responseLength": 13500,
+  "timestamp": "2025-12-02T16:49:47.043Z"
+}
+[2025-12-02 22:19:47.046] [DEBUG] AI raw response received
+  Details: {
+  "responseLength": 13500
+}
+[2025-12-02 22:19:47.049] [INFO] AI response successfully generated
+  Details: {
+  "hasFileTree": true,
+  "textLength": 306
+}
+[2025-12-02 22:19:47.051] [DEBUG] Normalized AI files
+  Details: {
+  "fileNames": [
+    "index.html",
+    "package.json",
+    "server.js"
+  ]
+}
+[2025-12-02 22:19:47.056] [INFO] AI response sent
+  Details: {
+  "projectId": "6911fbb289431099e08c1db1",
+  "hasFileTree": true,
+  "textLength": 306
+}

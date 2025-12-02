@@ -1,0 +1,237 @@
+[2025-11-07 13:10:57.126] [ERROR] Testing ERROR level logging
+  Stack: Error: This is a test error - everything is working fine!
+    at file:///D:/Downloads/Desktop/Final%20Year/SDA/backend/test-logging.js:28:19
+    at ModuleJob.run (node:internal/modules/esm/module_job:329:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:644:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
+  testId: 3
+[2025-11-07 14:02:16.664] [ERROR] Error parsing AI response
+  Details: {
+  "error": {},
+  "responsePreview": "{\n  \"text\": \"A modern, responsive portfolio website for Piyush Thawale, built with React, Tailwind CSS, and Framer Motion. It features a dark theme with blue and purple accents, smooth animations, and"
+}
+[2025-11-07 14:03:07.147] [ERROR] Error parsing AI response
+  Details: {
+  "error": {},
+  "responsePreview": "{\n  \"text\": \"A modern, responsive portfolio website for Piyush Thawale, featuring a dark theme with blue and purple accents, smooth animations, and sections for hero, about, projects, and contact.\",\n "
+}
+[2025-11-07 14:06:34.498] [ERROR] Failed to sanitize JSON
+  Details: {
+  "originalError": "Bad control character in string literal in JSON at position 334 (line 6 column 23)",
+  "sanitizeError": "Unterminated string in JSON at position 31666 (line 46 column 2678)"
+}
+[2025-11-07 14:06:34.501] [ERROR] Error parsing AI response
+  Details: {
+  "errorName": "SyntaxError",
+  "errorMessage": "Bad control character in string literal in JSON at position 334 (line 6 column 23)",
+  "errorStack": "SyntaxError: Bad control character in string literal in JSON at position 334 (line 6 column 23)\n    at JSON.parse (<anonymous>)\n    at sanitizeJSONString (file:///D:/Downloads/Desktop/Final%20Year/SDA/backend/services/ai.service.js:87:10)\n    at generateResult (file:///D:/Downloads/Desktop/Final%20Year/SDA/backend/services/ai.service.js:264:29)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Socket.<anonymous> (file:///D:/Downloads/Desktop/Final%20Year/SDA/backend/server.js:97:24)",
+  "responseLength": 21381,
+  "responsePreview": "{\n  \"text\": \"A modern, responsive portfolio website for Piyush Thawale, featuring a dark theme with blue and purple accents, smooth animations, and sections for Hero, About Me, Projects, and Contact. ",
+  "responseSuffix": "color: ${({ theme }) => theme.colors.textPrimary};\\n  padding: 20px;\\n  border-radius: 10px;\\n  display: flex;\\n  flex-direction: column;\\n  align-items: center;\\n  gap: 10px;\\n  min-width: 120px;\\n  "
+}
+[2025-11-07 14:11:35.548] [ERROR] Failed to sanitize JSON
+  Details: {
+  "originalError": "Bad control character in string literal in JSON at position 375 (line 6 column 23)",
+  "sanitizeError": "Expected property name or '}' in JSON at position 1 (line 1 column 2)",
+  "jsonPreview": "{\n  \"text\": \"A modern, responsive portfolio website for Piyush Thawale, built with React. It features a dark theme with blue and purple accents, smooth animations, and dedicated sections for Hero, About Me, Projects, and Contact. The project is set up with Vite for a fast development experience.\",\n  \"fileTree\": {\n    \"package.json\": {\n      \"file\": {\n        \"contents\": \"{\n  \\\"name\\\": \\\"piyush-portfolio\\\",\n  \\\"private\\\": true,\n  \\\"version\\\": \\\"0.0.0\\\",\n  \\\"type\\\": \\\"module\\\",\n  \\\"scripts\\\": {\n  "
+}
+[2025-11-07 14:11:35.553] [ERROR] Error parsing AI response
+  Details: {
+  "errorName": "SyntaxError",
+  "errorMessage": "Bad control character in string literal in JSON at position 375 (line 6 column 23)",
+  "errorStack": "SyntaxError: Bad control character in string literal in JSON at position 375 (line 6 column 23)\n    at JSON.parse (<anonymous>)\n    at sanitizeJSONString (file:///D:/Downloads/Desktop/Final%20Year/SDA/backend/services/ai.service.js:87:10)\n    at generateResult (file:///D:/Downloads/Desktop/Final%20Year/SDA/backend/services/ai.service.js:271:29)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Socket.<anonymous> (file:///D:/Downloads/Desktop/Final%20Year/SDA/backend/server.js:97:24)",
+  "responseLength": 2557,
+  "responsePreview": "{\n  \"text\": \"A modern, responsive portfolio website for Piyush Thawale, built with React. It features a dark theme with blue and purple accents, smooth animations, and dedicated sections for Hero, Abo",
+  "responseSuffix": "actual URL if this were a real repo)\n\n2.  **Install dependencies:**\n    ```bash\n    npm install\n    # or\n    yarn install\n    ```\n\n### Running the Development Server\n\nTo start the development server:\n"
+}
+[2025-11-07 14:31:21.862] [ERROR] Failed to sanitize JSON
+  Details: {
+  "originalError": "Bad control character in string literal in JSON at position 315 (line 6 column 23)",
+  "sanitizeError": "Expected property name or '}' in JSON at position 1 (line 1 column 2)",
+  "jsonPreview": "{\n  \"text\": \"Hello! I've set up a basic MERN stack project with a simple Express server, a Mongoose user model, user routes, and a minimal React frontend bundled with Webpack. This provides a foundational structure for your development.\",\n  \"fileTree\": {\n    \"package.json\": {\n      \"file\": {\n        \"contents\": \"{\n  \\\"name\\\": \\\"mern-starter\\\",\n  \\\"version\\\": \\\"1.0.0\\\",\n  \\\"description\\\": \\\"A basic MERN stack starter project\\\",\n  \\\"main\\\": \\\"server.js\\\",\n  \\\"scripts\\\": {\n    \\\"start\\\": \\\"node ser"
+}
+[2025-11-07 14:31:21.868] [ERROR] Error parsing AI response
+  Details: {
+  "errorName": "SyntaxError",
+  "errorMessage": "Bad control character in string literal in JSON at position 315 (line 6 column 23)",
+  "errorStack": "SyntaxError: Bad control character in string literal in JSON at position 315 (line 6 column 23)\n    at JSON.parse (<anonymous>)\n    at sanitizeJSONString (file:///D:/Downloads/Desktop/Final%20Year/SDA/backend/services/ai.service.js:91:10)\n    at generateResult (file:///D:/Downloads/Desktop/Final%20Year/SDA/backend/services/ai.service.js:288:29)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Socket.<anonymous> (file:///D:/Downloads/Desktop/Final%20Year/SDA/backend/server.js:100:24)",
+  "responseLength": 10056,
+  "responsePreview": "{\n  \"text\": \"Hello! I've set up a basic MERN stack project with a simple Express server, a Mongoose user model, user routes, and a minimal React frontend bundled with Webpack. This provides a foundati",
+  "responseSuffix": "   }\n  }\n};\n\"\n      }\n    }\n  },\n  \"buildCommand\": {\n    \"mainItem\": \"npm\",\n    \"commands\": [\"install\"]\n  },\n  \"startCommand\": {\n    \"mainItem\": \"npm\",\n    \"commands\": [\"run build\", \"npm start\"]\n  }\n}"
+}
+[2025-11-07 14:34:57.068] [ERROR] Failed to sanitize JSON
+  Details: {
+  "originalError": "Bad control character in string literal in JSON at position 214 (line 6 column 23)",
+  "sanitizeError": "Expected property name or '}' in JSON at position 1 (line 1 column 2)",
+  "jsonPreview": "{\n  \"text\": \"A minimal Next.js homepage featuring a navigation bar, a hero section, and a footer, demonstrating a basic page structure.\",\n  \"fileTree\": {\n    \"package.json\": {\n      \"file\": {\n        \"contents\": \"{\n  \\\"name\\\": \\\"nextjs-homepage\\\",\n  \\\"version\\\": \\\"0.1.0\\\",\n  \\\"private\\\": true,\n  \\\"scripts\\\": {\n    \\\"dev\\\": \\\"next dev\\\",\n    \\\"build\\\": \\\"next build\\\",\n    \\\"start\\\": \\\"next start\\\",\n    \\\"lint\\\": \\\"next lint\\\"\n  },\n  \\\"dependencies\\\": {\n    \\\"next\\\": \\\"14.2.3\\\",\n    \\\"react\\\": \\\"^"
+}
+[2025-11-07 14:34:57.071] [ERROR] Error parsing AI response
+  Details: {
+  "errorName": "SyntaxError",
+  "errorMessage": "Bad control character in string literal in JSON at position 214 (line 6 column 23)",
+  "errorStack": "SyntaxError: Bad control character in string literal in JSON at position 214 (line 6 column 23)\n    at JSON.parse (<anonymous>)\n    at sanitizeJSONString (file:///D:/Downloads/Desktop/Final%20Year/SDA/backend/services/ai.service.js:91:10)\n    at generateResult (file:///D:/Downloads/Desktop/Final%20Year/SDA/backend/services/ai.service.js:307:29)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Socket.<anonymous> (file:///D:/Downloads/Desktop/Final%20Year/SDA/backend/server.js:100:24)",
+  "responseLength": 4669,
+  "responsePreview": "{\n  \"text\": \"A minimal Next.js homepage featuring a navigation bar, a hero section, and a footer, demonstrating a basic page structure.\",\n  \"fileTree\": {\n    \"package.json\": {\n      \"file\": {\n        ",
+  "responseSuffix": "\n  font-size: 0.9rem;\n}\n\"\n      }\n    }\n  },\n  \"buildCommand\": {\n    \"mainItem\": \"npm\",\n    \"commands\": [\"install\"]\n  },\n  \"startCommand\": {\n    \"mainItem\": \"npm\",\n    \"commands\": [\"run\", \"dev\"]\n  }\n}"
+}
+[2025-11-07 14:35:30.556] [ERROR] Failed to sanitize JSON
+  Details: {
+  "originalError": "Bad control character in string literal in JSON at position 311 (line 6 column 23)",
+  "sanitizeError": "Expected property name or '}' in JSON at position 1 (line 1 column 2)",
+  "jsonPreview": "{\n  \"text\": \"This project provides a single-page portfolio layout using HTML and TailwindCSS. It includes a hero section, an about section, and a contact form, all styled with minimal Tailwind classes for a clean, responsive design.\",\n  \"fileTree\": {\n    \"package.json\": {\n      \"file\": {\n        \"contents\": \"{\n  \\\"name\\\": \\\"portfolio-layout\\\",\n  \\\"version\\\": \\\"1.0.0\\\",\n  \\\"description\\\": \\\"Single-page portfolio layout with TailwindCSS\\\",\n  \\\"main\\\": \\\"index.js\\\",\n  \\\"scripts\\\": {\n    \\\"build:css"
+}
+[2025-11-07 14:35:30.558] [ERROR] Error parsing AI response
+  Details: {
+  "errorName": "SyntaxError",
+  "errorMessage": "Bad control character in string literal in JSON at position 311 (line 6 column 23)",
+  "errorStack": "SyntaxError: Bad control character in string literal in JSON at position 311 (line 6 column 23)\n    at JSON.parse (<anonymous>)\n    at sanitizeJSONString (file:///D:/Downloads/Desktop/Final%20Year/SDA/backend/services/ai.service.js:91:10)\n    at generateResult (file:///D:/Downloads/Desktop/Final%20Year/SDA/backend/services/ai.service.js:307:29)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Socket.<anonymous> (file:///D:/Downloads/Desktop/Final%20Year/SDA/backend/server.js:100:24)",
+  "responseLength": 5922,
+  "responsePreview": "{\n  \"text\": \"This project provides a single-page portfolio layout using HTML and TailwindCSS. It includes a hero section, an about section, and a contact form, all styled with minimal Tailwind classes",
+  "responseSuffix": "  \"mainItem\": \"npm\",\n    \"commands\": [\"install\", \"run build:css\"]\n  },\n  \"startCommand\": {\n    \"mainItem\": \"Open\",\n    \"commands\": [\"index.html in your browser after running the build command.\"]\n  }\n}"
+}
+[2025-11-07 14:47:23.822] [ERROR] AI response validation failed
+  Details: {
+  "error": "Response must contain a \"text\" field of type string"
+}
+[2025-11-07 14:47:23.827] [ERROR] Error parsing AI response
+  Details: {
+  "errorName": "Error",
+  "errorMessage": "Response must contain a \"text\" field of type string",
+  "errorStack": "Error: Response must contain a \"text\" field of type string\n    at generateResult (file:///D:/Downloads/Desktop/Final%20Year/SDA/backend/services/ai.service.js:297:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Socket.<anonymous> (file:///D:/Downloads/Desktop/Final%20Year/SDA/backend/server.js:100:24)",
+  "responseLength": 31,
+  "responsePreview": "{\n  \"message\": \"Hello there!\"\n}",
+  "responseSuffix": "{\n  \"message\": \"Hello there!\"\n}"
+}
+[2025-11-07 14:48:13.277] [ERROR] Failed to sanitize JSON
+  Details: {
+  "originalError": "Unterminated string in JSON at position 19667 (line 2 column 19666)",
+  "sanitizeError": "Unterminated string in JSON at position 19666 (line 1 column 19667)",
+  "jsonPreview": "{\n  \"index.html\": \"<!DOCTYPE html>\\n<html lang=\\\"en\\\">\\n<head>\\n    <meta charset=\\\"UTF-8\\\">\\n    <meta name=\\\"viewport\\\" content=\\\"width=device-width, initial-scale=1.0\\\">\\n    <title>E-Commerce Store</title>\\n    <link href=\\\"https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap\\\" rel=\\\"stylesheet\\\">\\n    <style>\\n        :root {\\n            --primary-color: #6a0572; /* Deep Purple */\\n            --secondary-color: #f7b731; /* Vibrant Yellow/Orange */\\n          "
+}
+[2025-11-07 14:48:13.279] [ERROR] Error parsing AI response
+  Details: {
+  "errorName": "SyntaxError",
+  "errorMessage": "Unterminated string in JSON at position 19667 (line 2 column 19666)",
+  "errorStack": "SyntaxError: Unterminated string in JSON at position 19667 (line 2 column 19666)\n    at JSON.parse (<anonymous>)\n    at sanitizeJSONString (file:///D:/Downloads/Desktop/Final%20Year/SDA/backend/services/ai.service.js:42:10)\n    at generateResult (file:///D:/Downloads/Desktop/Final%20Year/SDA/backend/services/ai.service.js:289:29)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Socket.<anonymous> (file:///D:/Downloads/Desktop/Final%20Year/SDA/backend/server.js:100:24)",
+  "responseLength": 19667,
+  "responsePreview": "{\n  \"index.html\": \"<!DOCTYPE html>\\n<html lang=\\\"en\\\">\\n<head>\\n    <meta charset=\\\"UTF-8\\\">\\n    <meta name=\\\"viewport\\\" content=\\\"width=device-width, initial-scale=1.0\\\">\\n    <title>E-Commerce Stor",
+  "responseSuffix": "                   <article class=\\\"product-card\\\" aria-labelledby=\\\"product3-title\\\">\\n                        <img src=\\\"https://images.unsplash.com/photo-1505740420928-5e560c06f2e0?crop=entropy&cs="
+}
+[2025-11-26 23:15:42.318] [ERROR] Error in generateResult
+  Details: {
+  "error": {},
+  "errorName": "Error",
+  "errorMessage": "Empty response from AI model",
+  "stack": "Error: Empty response from AI model\n    at generateResult (file:///D:/Downloads/Desktop/Final%20Year/SDA/backend/services/ai.service.js:461:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Socket.<anonymous> (file:///D:/Downloads/Desktop/Final%20Year/SDA/backend/server.js:100:24)",
+  "timestamp": "2025-11-26T17:45:42.318Z"
+}
+[2025-11-26 23:17:33.962] [ERROR] Error in generateResult
+  Details: {
+  "error": {},
+  "errorName": "Error",
+  "errorMessage": "Empty response from AI model",
+  "stack": "Error: Empty response from AI model\n    at generateResult (file:///D:/Downloads/Desktop/Final%20Year/SDA/backend/services/ai.service.js:461:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Socket.<anonymous> (file:///D:/Downloads/Desktop/Final%20Year/SDA/backend/server.js:100:24)",
+  "timestamp": "2025-11-26T17:47:33.962Z"
+}
+[2025-11-26 23:20:37.673] [ERROR] Error in generateResult
+  Details: {
+  "error": {},
+  "errorName": "Error",
+  "errorMessage": "Empty response from AI model",
+  "stack": "Error: Empty response from AI model\n    at generateResult (file:///D:/Downloads/Desktop/Final%20Year/SDA/backend/services/ai.service.js:461:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Socket.<anonymous> (file:///D:/Downloads/Desktop/Final%20Year/SDA/backend/server.js:100:24)",
+  "timestamp": "2025-11-26T17:50:37.673Z"
+}
+[2025-11-26 23:22:09.373] [ERROR] Error in generateResult
+  Details: {
+  "error": {
+    "response": {
+      "candidates": [
+        {
+          "finishReason": "RECITATION",
+          "index": 0
+        }
+      ],
+      "usageMetadata": {
+        "promptTokenCount": 299,
+        "totalTokenCount": 395,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 299
+          }
+        ],
+        "thoughtsTokenCount": 96
+      },
+      "modelVersion": "gemini-2.5-flash",
+      "responseId": "ST4nac7zJKedjuMP7qTA-A0"
+    }
+  },
+  "errorName": "Error",
+  "errorMessage": "[GoogleGenerativeAI Error]: Candidate was blocked due to RECITATION",
+  "stack": "Error: [GoogleGenerativeAI Error]: Candidate was blocked due to RECITATION\n    at response.text (file:///D:/Downloads/Desktop/Final%20Year/SDA/backend/node_modules/@google/generative-ai/dist/index.mjs:485:23)\n    at file:///D:/Downloads/Desktop/Final%20Year/SDA/backend/services/ai.service.js:435:47\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async generateResult (file:///D:/Downloads/Desktop/Final%20Year/SDA/backend/services/ai.service.js:423:20)\n    at async Socket.<anonymous> (file:///D:/Downloads/Desktop/Final%20Year/SDA/backend/server.js:100:24)",
+  "timestamp": "2025-11-26T17:52:09.373Z"
+}
+[2025-12-02 21:46:54.560] [ERROR] Error in generateResult
+  Details: {
+  "error": {},
+  "errorName": "Error",
+  "errorMessage": "Empty response from AI model",
+  "stack": "Error: Empty response from AI model\n    at generateResult (file:///D:/Downloads/Desktop/Final%20Year/SDA/backend/services/ai.service.js:461:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Socket.<anonymous> (file:///D:/Downloads/Desktop/Final%20Year/SDA/backend/server.js:100:24)",
+  "timestamp": "2025-12-02T16:16:54.560Z"
+}
+[2025-12-02 22:01:34.683] [ERROR] GOOGLE_AI_KEY is not configured in environment variables
+  Details: {
+  "impact": "AI features will not work",
+  "action": "Set GOOGLE_AI_KEY in environment variables"
+}
+[2025-12-02 22:01:35.534] [ERROR] Error in generateResult
+  Details: {
+  "error": {
+    "status": 400,
+    "statusText": "Bad Request",
+    "errorDetails": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  },
+  "errorName": "Error",
+  "errorMessage": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [400 Bad Request] API key not valid. Please pass a valid API key. [{\"@type\":\"type.googleapis.com/google.rpc.ErrorInfo\",\"reason\":\"API_KEY_INVALID\",\"domain\":\"googleapis.com\",\"metadata\":{\"service\":\"generativelanguage.googleapis.com\"}},{\"@type\":\"type.googleapis.com/google.rpc.LocalizedMessage\",\"locale\":\"en-US\",\"message\":\"API key not valid. Please pass a valid API key.\"}]",
+  "stack": "Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [400 Bad Request] API key not valid. Please pass a valid API key. [{\"@type\":\"type.googleapis.com/google.rpc.ErrorInfo\",\"reason\":\"API_KEY_INVALID\",\"domain\":\"googleapis.com\",\"metadata\":{\"service\":\"generativelanguage.googleapis.com\"}},{\"@type\":\"type.googleapis.com/google.rpc.LocalizedMessage\",\"locale\":\"en-US\",\"message\":\"API key not valid. Please pass a valid API key.\"}]\n    at handleResponseNotOk (file:///D:/Downloads/Desktop/Final%20Year/SDA/backend/node_modules/@google/generative-ai/dist/index.mjs:432:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async makeRequest (file:///D:/Downloads/Desktop/Final%20Year/SDA/backend/node_modules/@google/generative-ai/dist/index.mjs:401:9)\n    at async generateContent (file:///D:/Downloads/Desktop/Final%20Year/SDA/backend/node_modules/@google/generative-ai/dist/index.mjs:865:22)\n    at async file:///D:/Downloads/Desktop/Final%20Year/SDA/backend/services/ai.service.js:438:30\n    at async generateResult (file:///D:/Downloads/Desktop/Final%20Year/SDA/backend/services/ai.service.js:429:22)\n    at async testAI (file:///D:/Downloads/Desktop/Final%20Year/SDA/backend/test_direct.js:6:20)",
+  "timestamp": "2025-12-02T16:31:35.534Z",
+  "attempts": 1
+}
+[2025-12-02 22:15:00.325] [ERROR] Error in generateResult
+  Details: {
+  "error": {},
+  "errorName": "Error",
+  "errorMessage": "Empty response from AI model",
+  "stack": "Error: Empty response from AI model\n    at generateResult (file:///D:/Downloads/Desktop/Final%20Year/SDA/backend/services/ai.service.js:487:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Socket.<anonymous> (file:///D:/Downloads/Desktop/Final%20Year/SDA/backend/server.js:100:24)",
+  "timestamp": "2025-12-02T16:45:00.324Z",
+  "attempts": 3
+}
+[2025-12-02 22:19:16.919] [ERROR] Failed to sanitize JSON
+  Details: {
+  "originalError": "Unexpected end of JSON input",
+  "sanitizeError": "Unexpected end of JSON input",
+  "jsonPreview": "{\n  \"text\": \"A professional, responsive single-page Login and Sign-Up website with a minimalist design, smooth animations, and basic validation, served by an Express.js server using ES modules. All HTML, CSS, and JavaScript are self-contained within index.html.\",\n  \"fileTree\": {\n    \"index.html\": {\n      \"file\": {\n        \"contents\": \"<!DOCTYPE html>\\n<html lang=\\\"en\\\">\\n<head>\\n    <meta charset=\\\"UTF-8\\\">\\n    <meta name=\\\"viewport\\\" content=\\\"width=device-width, initial-scale=1.0\\\">\\n    <tit"
+}
+[2025-12-02 22:19:16.924] [ERROR] Error parsing AI response
+  Details: {
+  "errorName": "SyntaxError",
+  "errorMessage": "Unexpected end of JSON input",
+  "errorStack": "SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at sanitizeJSONString (file:///D:/Downloads/Desktop/Final%20Year/SDA/backend/services/ai.service.js:76:10)\n    at generateResult (file:///D:/Downloads/Desktop/Final%20Year/SDA/backend/services/ai.service.js:505:31)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Socket.<anonymous> (file:///D:/Downloads/Desktop/Final%20Year/SDA/backend/server.js:100:24)",
+  "responseLength": 20978,
+  "responsePreview": "{\n  \"text\": \"A professional, responsive single-page Login and Sign-Up website with a minimalist design, smooth animations, and basic validation, served by an Express.js server using ES modules. All HT",
+  "responseSuffix": "contains('open');\\n                hamburgerMenu.setAttribute('aria-expanded', isExpanded);\\n            });\\n\\n            // --- Form Toggling --- \\n            const toggleForms = (showLogin) => {\\"
+}
